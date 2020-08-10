@@ -4,7 +4,7 @@ import React from 'react';
 import { AppLoading } from 'expo';
 
 import { RalewayDots_400Regular, useFonts} from '@expo-google-fonts/raleway-dots';
-import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
+import { Poppins_400Regular, Poppins_600SemiBold, Poppins_700Bold } from '@expo-google-fonts/poppins';
 
 import AppStack from './src/routes/AppStack';
 
@@ -14,6 +14,7 @@ export default function App() {
     RalewayDots_400Regular, 
     Poppins_400Regular, 
     Poppins_600SemiBold,
+    Poppins_700Bold,
   }); 
   
   if (!fontsLoaded){
