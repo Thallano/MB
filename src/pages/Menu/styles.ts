@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
     },
 
     itensContainer:{
-        backgroundColor: '#4C4E54',
         height: 250,
         padding: 20
     },

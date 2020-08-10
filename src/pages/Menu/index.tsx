@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Linking } from 'react-native';
 import PageHeader from '../../components/PageHeader';
 import { MaterialIcons } from '@expo/vector-icons'; 
-
+import ItemMenu, { Item } from '../../components/Item';
 
 import styles from './styles';
 import { RectButton, ScrollView } from 'react-native-gesture-handler';
@@ -22,11 +22,8 @@ function Menu () {
                 paddingHorizontal: 16,
                 paddingBottom: 16,
             }}>
-                <Text style={styles.textItem}>Itens</Text>
-                <Text style={styles.textItem}>Itens</Text>
-                <Text style={styles.textItem}>Itens</Text>
-                <Text style={styles.textItem}>Itens</Text>
-                <Text style={styles.textItem}>Itens</Text>
+                <ItemMenu />
+              
              </ScrollView>
 
              <View style={styles.buttonsContainer}>
